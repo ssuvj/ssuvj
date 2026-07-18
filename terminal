@@ -1,105 +1,79 @@
 ssuvj@7ui87ui8:~$ inxi -F && fastfetch && cat ~/.config/openbox/rc.xml
 System:
-  Host: 7ui87ui8 Kernel: 6.12.95+deb13-amd64
-    arch: x86_64 bits: 64
-  Desktop: Openbox v: 3.6.1 Distro: Debian
-    GNU/Linux 13 (trixie)
+  Host: 7ui87ui8 Kernel: 6.12.95+deb13-amd64 arch: x86_64 bits: 64
+  Desktop: Openbox v: 3.6.1 Distro: Debian GNU/Linux 13 (trixie)
 Machine:
-  Type: Laptop System: Dell product: Dell Pro 15
-    Essential PV15250 v: N/A
+  Type: Laptop System: Dell product: Dell Pro 15 Essential PV15250 v: N/A
     serial: <superuser required>
-  Mobo: Dell model: 0GTFC3 v: A00
-    serial: <superuser required> UEFI: Dell
+  Mobo: Dell model: 0GTFC3 v: A00 serial: <superuser required> UEFI: Dell
     v: 1.0.0 date: 09/04/2025
 Battery:
-  ID-1: BAT0 charge: 31.3 Wh (78.1%)
-    condition: 40.1/40.1 Wh (100.0%)
+  ID-1: BAT0 charge: 34.1 Wh (85.0%) condition: 40.1/40.1 Wh (100.0%)
 CPU:
-  Info: 6-core (2-mt/4-st)
-    model: Intel Core 3 100U bits: 64
-    type: MST AMCP cache: L2: 4.5 MiB
-  Speed (MHz): avg: 666 min/max: 400/4700:3300
-    cores: 1: 666 2: 666 3: 666 4: 666 5: 666
-    6: 666 7: 666 8: 666
+  Info: 6-core (2-mt/4-st) model: Intel Core 3 100U bits: 64 type: MST AMCP
+    cache: L2: 4.5 MiB
+  Speed (MHz): avg: 4700 min/max: 400/4700:3300 cores: 1: 4700 2: 4700
+    3: 4700 4: 4700 5: 4700 6: 4700 7: 4700 8: 4700
 Graphics:
-  Device-1: Intel Raptor Lake-U [Intel Graphics]
-    driver: i915 v: kernel
-  Device-2: Sunplus Innovation
-    Integrated_Webcam_HD driver: uvcvideo
+  Device-1: Intel Raptor Lake-U [Intel Graphics] driver: i915 v: kernel
+  Device-2: Sunplus Innovation Integrated_Webcam_HD driver: uvcvideo
     type: USB
-  Display: unspecified server: X.Org v: 21.1.16
-    driver: X: loaded: modesetting
-    unloaded: fbdev,vesa dri: iris gpu: i915
+  Display: unspecified server: X.Org v: 21.1.16 driver: X:
+    loaded: modesetting unloaded: fbdev,vesa dri: iris gpu: i915
     resolution: 1920x1080~120Hz
-  API: EGL v: 1.5 drivers: iris,swrast
-    platforms: gbm,x11,surfaceless,device
-  API: OpenGL v: 4.6 compat-v: 4.5
-    vendor: intel mesa v: 25.0.7-2+deb13u1
+  API: EGL v: 1.5 drivers: iris,swrast platforms: gbm,x11,surfaceless,device
+  API: OpenGL v: 4.6 compat-v: 4.5 vendor: intel mesa v: 25.0.7-2+deb13u1
     renderer: Mesa Intel Graphics (RPL-U)
-  Info: Tools: api: eglinfo,glxinfo
-    x11: xdriinfo, xdpyinfo, xprop, xrandr
+  Info: Tools: api: eglinfo,glxinfo x11: xdriinfo, xdpyinfo, xprop, xrandr
 Audio:
-  Device-1: Intel Raptor Lake-P/U/H cAVS
-    driver: snd_hda_intel
-  API: ALSA v: k6.12.95+deb13-amd64
-    status: kernel-api
+  Device-1: Intel Raptor Lake-P/U/H cAVS driver: snd_hda_intel
+  API: ALSA v: k6.12.95+deb13-amd64 status: kernel-api
   Server-1: PipeWire v: 1.4.2 status: active
 Network:
-  Device-1: Realtek RTL8852BE PCIe 802.11ax
-    Wireless Network driver: rtw89_8852be
+  Device-1: Realtek RTL8852BE PCIe 802.11ax Wireless Network
+    driver: rtw89_8852be
   IF: wlp2s0 state: up mac: 44:f7:9f:22:2d:d9
 Bluetooth:
-  Device-1: Realtek Bluetooth Radio driver: btusb
-    type: USB
-  Report: hciconfig ID: hci0 state: up
-    address: 44:F7:9F:22:2D:DA bt-v: 5.2
+  Device-1: Realtek Bluetooth Radio driver: btusb type: USB
+  Report: hciconfig ID: hci0 state: up address: 44:F7:9F:22:2D:DA bt-v: 5.2
 Drives:
-  Local Storage: total: 476.94 GiB
-    used: 27.15 GiB (5.7%)
-  ID-1: /dev/nvme0n1 vendor: Samsung
-    model: BM9C1 512GB size: 476.94 GiB
+  Local Storage: total: 476.94 GiB used: 27.15 GiB (5.7%)
+  ID-1: /dev/nvme0n1 vendor: Samsung model: BM9C1 512GB size: 476.94 GiB
 Partition:
-  ID-1: / size: 459.87 GiB used: 27.14 GiB (5.9%)
-    fs: ext4 dev: /dev/nvme0n1p2
-  ID-2: /boot/efi size: 974.1 MiB
-    used: 9 MiB (0.9%) fs: vfat dev: /dev/nvme0n1p1
+  ID-1: / size: 459.87 GiB used: 27.14 GiB (5.9%) fs: ext4 dev: /dev/nvme0n1p2
+  ID-2: /boot/efi size: 974.1 MiB used: 9 MiB (0.9%) fs: vfat
+    dev: /dev/nvme0n1p1
 Swap:
-  ID-1: swap-1 type: partition size: 7.69 GiB
-    used: 0 KiB (0.0%) dev: /dev/nvme0n1p3
+  ID-1: swap-1 type: partition size: 7.69 GiB used: 0 KiB (0.0%)
+    dev: /dev/nvme0n1p3
 Sensors:
-  System Temperatures: cpu: 49.0 C mobo: 39.0 C
-    sodimm: 40.0 C
-  Fan Speeds (rpm): cpu: 3601
+  System Temperatures: cpu: 73.0 C mobo: 40.0 C sodimm: 43.0 C
+  Fan Speeds (rpm): cpu: 3614
 Info:
-  Memory: total: 8 GiB note: est.
-    available: 7.45 GiB used: 3.23 GiB (43.3%)
-  Processes: 215 Uptime: 20m Shell: Bash
-    inxi: 3.3.38
-        _,met$$$$$gg.
-     ,g$$$$$$$$$$$$$$$P.
-   ,g$$P""       """Y$$.".
-  ,$$P'              `$$$.     ssuvj@7ui87ui8
-',$$P       ,ggs.     `$$b:    --------------
-`d$$'     ,$P"'   .    $$$     OS: Debian GNU/Linux 13 (trixie) x86_64    $$P
- $$:      $$.   -    ,d$$'     Host: Dell Pro 15 Essential PV15250   _,d$P'
- Y$$.    `.`"Y$$$$P"'          Kernel: Linux 6.12.95+deb13-amd64.__
-  `Y$$b                        Uptime: 20 mins
-   `Y$$.                       Packages: 1737 (dpkg), 7 (flatpak)
-       `Y$$b.                  Shell: bash 5.2.37
-         `"Y$b._               Display (CMN1522): 1920x1080 @ 120 Hz in 16" [Built-in]
-                               WM: Openbox (X11)
-                               WM Theme: Clearlooks
-                               Theme: TraditionalGreen [GTK2/3]
-                               Cursor: mate
-                               Terminal: mate-terminal 1.26.1
-                               Terminal Font: Monospace (11pt)
-                               CPU: Intel(R) Core(TM) 3 100U (8) @ 4.70 GHz
+  Memory: total: 8 GiB note: est. available: 7.45 GiB used: 1.72 GiB (23.1%)
+  Processes: 218 Uptime: 28m Shell: Bash inxi: 3.3.38
+        _,met$$$$$gg.          ssuvj@7ui87ui8
+     ,g$$$$$$$$$$$$$$$P.       --------------
+   ,g$$P""       """Y$$.".     OS: Debian GNU/Linux 13 (trixie) x86_64
+  ,$$P'              `$$$.     Host: Dell Pro 15 Essential PV15250
+',$$P       ,ggs.     `$$b:    Kernel: Linux 6.12.95+deb13-amd64
+`d$$'     ,$P"'   .    $$$     Uptime: 29 mins
+ $$P      d$'     ,    $$P     Packages: 1737 (dpkg), 7 (flatpak)
+ $$:      $$.   -    ,d$$'     Shell: bash 5.2.37
+ $$;      Y$b._   _,d$P'       Display (CMN1522): 1920x1080 @ 120 Hz in 16" [Built-in]   `.`"Y$$$$P"'
+ `$$b      "-.__               WM: Openbox (X11)
+  `Y$$b                        WM Theme: Clearlooks
+   `Y$$.                       Theme: TraditionalGreen [GTK2/3]
+     `$$b.                     Cursor: mate
+       `Y$$b.                  Terminal: mate-terminal 1.26.1
+         `"Y$b._               Terminal Font: Monospace (11pt)
+             `""""             CPU: Intel(R) Core(TM) 3 100U (8) @ 4.70 GHz
                                GPU: Intel Graphics @ 1.25 GHz [Integrated]
-                               Memory: 3.20 GiB / 7.45 GiB (43%)
+                               Memory: 1.70 GiB / 7.45 GiB (23%)
                                Swap: 0 B / 7.69 GiB (0%)
                                Disk (/): 27.14 GiB / 459.87 GiB (6%) - ext4
                                Local IP (wlp2s0): 192.168.8.174/24
-                               Battery (DELL MGCM55A): 78% [Charging, AC Connected]
+                               Battery (DELL MGCM55A): 85% [Charging, AC Connected]
                                Locale: en_US.UTF-8
 
                                                        
