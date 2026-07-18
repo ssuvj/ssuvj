@@ -325,15 +325,10 @@
       <action name="Execute">
         <command>rofi -show drun -show-icons</command>
       </action>
-    <keybind key="C-A-t">
-      <action name="Execute">
-        <command>mate-terminal</command>
-      </action>
-    </keybind>
     </keybind>
    <keybind key="C-A-t">
      <action name="Execute">
-       <command>mate-terminal</command>
+       <command>mate-terminal --geometry=80x24</command>
      </action>
    <keybind key="A-F3">
     <action name="Execute">
