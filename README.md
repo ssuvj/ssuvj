@@ -1,3 +1,4 @@
  - penguin watur
  - configuration files
  - encrypted projects
+ - long logs that wont fit in pastebin
