@@ -8,12 +8,12 @@ Machine:
   Mobo: Dell model: 0GTFC3 v: A00 serial: <superuser required> UEFI: Dell
     v: 1.0.0 date: 09/04/2025
 Battery:
-  ID-1: BAT0 charge: 34.1 Wh (85.0%) condition: 40.1/40.1 Wh (100.0%)
+  ID-1: BAT0 charge: 37.1 Wh (92.5%) condition: 40.1/40.1 Wh (100.0%)
 CPU:
   Info: 6-core (2-mt/4-st) model: Intel Core 3 100U bits: 64 type: MST AMCP
     cache: L2: 4.5 MiB
-  Speed (MHz): avg: 4700 min/max: 400/4700:3300 cores: 1: 4700 2: 4700
-    3: 4700 4: 4700 5: 4700 6: 4700 7: 4700 8: 4700
+  Speed (MHz): avg: 400 min/max: 400/4700:3300 cores: 1: 400 2: 400 3: 400
+    4: 400 5: 400 6: 400 7: 400 8: 400
 Graphics:
   Device-1: Intel Raptor Lake-U [Intel Graphics] driver: i915 v: kernel
   Device-2: Sunplus Innovation Integrated_Webcam_HD driver: uvcvideo
@@ -40,24 +40,24 @@ Drives:
   Local Storage: total: 476.94 GiB used: 27.15 GiB (5.7%)
   ID-1: /dev/nvme0n1 vendor: Samsung model: BM9C1 512GB size: 476.94 GiB
 Partition:
-  ID-1: / size: 459.87 GiB used: 27.14 GiB (5.9%) fs: ext4 dev: /dev/nvme0n1p2
+  ID-1: / size: 459.87 GiB used: 27.15 GiB (5.9%) fs: ext4 dev: /dev/nvme0n1p2
   ID-2: /boot/efi size: 974.1 MiB used: 9 MiB (0.9%) fs: vfat
     dev: /dev/nvme0n1p1
 Swap:
   ID-1: swap-1 type: partition size: 7.69 GiB used: 0 KiB (0.0%)
     dev: /dev/nvme0n1p3
 Sensors:
-  System Temperatures: cpu: 73.0 C mobo: 40.0 C sodimm: 43.0 C
-  Fan Speeds (rpm): cpu: 3614
+  System Temperatures: cpu: 52.0 C mobo: 40.0 C sodimm: 42.0 C
+  Fan Speeds (rpm): cpu: 3594
 Info:
-  Memory: total: 8 GiB note: est. available: 7.45 GiB used: 1.72 GiB (23.1%)
-  Processes: 218 Uptime: 28m Shell: Bash inxi: 3.3.38
+  Memory: total: 8 GiB note: est. available: 7.45 GiB used: 3.01 GiB (40.4%)
+  Processes: 219 Uptime: 41m Shell: Bash inxi: 3.3.38
         _,met$$$$$gg.          ssuvj@7ui87ui8
      ,g$$$$$$$$$$$$$$$P.       --------------
    ,g$$P""       """Y$$.".     OS: Debian GNU/Linux 13 (trixie) x86_64
   ,$$P'              `$$$.     Host: Dell Pro 15 Essential PV15250
 ',$$P       ,ggs.     `$$b:    Kernel: Linux 6.12.95+deb13-amd64
-`d$$'     ,$P"'   .    $$$     Uptime: 29 mins
+`d$$'     ,$P"'   .    $$$     Uptime: 41 mins
  $$P      d$'     ,    $$P     Packages: 1737 (dpkg), 7 (flatpak)
  $$:      $$.   -    ,d$$'     Shell: bash 5.2.37
  $$;      Y$b._   _,d$P'       Display (CMN1522): 1920x1080 @ 120 Hz in 16" [Built-in]   `.`"Y$$$$P"'
@@ -66,14 +66,14 @@ Info:
    `Y$$.                       Theme: TraditionalGreen [GTK2/3]
      `$$b.                     Cursor: mate
        `Y$$b.                  Terminal: mate-terminal 1.26.1
-         `"Y$b._               Terminal Font: Monospace (11pt)
+         `"Y$b._               Terminal Font: Monospace (10pt)
              `""""             CPU: Intel(R) Core(TM) 3 100U (8) @ 4.70 GHz
                                GPU: Intel Graphics @ 1.25 GHz [Integrated]
-                               Memory: 1.70 GiB / 7.45 GiB (23%)
+                               Memory: 2.99 GiB / 7.45 GiB (40%)
                                Swap: 0 B / 7.69 GiB (0%)
-                               Disk (/): 27.14 GiB / 459.87 GiB (6%) - ext4
+                               Disk (/): 27.15 GiB / 459.87 GiB (6%) - ext4
                                Local IP (wlp2s0): 192.168.8.174/24
-                               Battery (DELL MGCM55A): 85% [Charging, AC Connected]
+                               Battery (DELL MGCM55A): 92% [Charging, AC Connected]
                                Locale: en_US.UTF-8
 
                                                        
@@ -484,35 +484,20 @@ Info:
     </mousebind>
   </context>
 
-  <context name="Titlebar">
-    <mousebind button="Left" action="Drag">
-      <action name="Move"/>
-    </mousebind>
-    <mousebind button="Left" action="DoubleClick">
-      <action name="ToggleMaximize"/>
-    </mousebind>
-
-    <mousebind button="Up" action="Click">
-      <action name="if">
-        <shaded>no</shaded>
-        <then>
-          <action name="Shade"/>
-          <action name="FocusToBottom"/>
-          <action name="Unfocus"/>
-          <action name="Lower"/>
-        </then>
-      </action>
-    </mousebind>
-    <mousebind button="Down" action="Click">
-      <action name="if">
-        <shaded>yes</shaded>
-        <then>
-          <action name="Unshade"/>
-          <action name="Raise"/>
-        </then>
-      </action>
-    </mousebind>
-  </context>
+    <context name="Titlebar">
+      <mousebind button="Left" action="Press">
+        <action name="Focus"/>
+        <action name="Raise"/>
+      </mousebind>
+      <mousebind button="Left" action="Drag">
+        <action name="Move"/>
+      </mousebind>
+      <mousebind button="Right" action="Press">
+        <action name="Focus"/>
+        <action name="Raise"/>
+        <action name="ShowMenu"><menu>client-menu</menu></action>
+      </mousebind>
+    </context>
 
   <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">
     <mousebind button="Left" action="Press">
