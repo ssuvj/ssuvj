@@ -1,1 +1,3 @@
-this is for my long text usages
+ - penguin watur
+ - configuration files
+ - encrypted projects
