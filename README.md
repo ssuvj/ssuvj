@@ -2,3 +2,4 @@
  - configuration files
  - encrypted projects
  - long logs that wont fit in pastebin
+ - whatever
