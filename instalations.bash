@@ -14,4 +14,6 @@ flatpak install flathub org.vinegarhq.Sober
 sudo apt update -y
 sudo apt install falkon
 
-# 4. 
+# 4. freetube
+sudo apt update -y
+flatpak install io.freetubeapp.FreeTube.flatpakref
