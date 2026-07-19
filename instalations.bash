@@ -29,3 +29,11 @@ sudo apt install inxi
 # 7. fastfetch
 sudo apt update -y
 sudo apt install fastfetch
+
+# 8. htop
+sudo apt update -y
+sudo apt install htop
+
+# 9. btop
+sudo apt update -y
+sudo apt install btop
