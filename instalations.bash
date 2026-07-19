@@ -17,3 +17,7 @@ sudo apt install falkon
 # 4. freetube
 sudo apt update -y
 flatpak install io.freetubeapp.FreeTube.flatpakref
+
+# 5. xterm terminal
+sudo apt update -y
+sudo apt install xterm
