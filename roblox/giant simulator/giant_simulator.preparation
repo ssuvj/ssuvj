@@ -2,8 +2,12 @@ game version: 0.307 (outdated, publishing archive)
 1. python3 -m venv giant_simulator_roblox
 2. source giant_simulator_roblox/bin/activate
 3. pip install pyautogui Pillow
-4. be in game
-4. scrot -u -a 70,160,55,40 level100.png
+4. pip install pytesseract
+
+
+(prep)
+!!!. be in game
+!!!. scrot -u -a 70,160,55,40 level100.png
 
 
 
