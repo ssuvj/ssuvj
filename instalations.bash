@@ -8,3 +8,10 @@ sudo apt update -y
 sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 # reboot gnu/linux
+flatpak install flathub org.vinegarhq.Sober
+
+# 3. flakon
+sudo apt update -y
+sudo apt install falkon
+
+# 4. 
