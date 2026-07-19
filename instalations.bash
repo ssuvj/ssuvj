@@ -41,3 +41,23 @@ sudo apt install btop
 # 10. dconf
 sudo apt update -y
 sudo apt install dconf-cli
+
+# 11. curl
+sudo apt update -y
+sudo apt install curl
+
+# 12. wget
+sudo apt update -y
+sudo apt install wget
+
+# 13. ssh
+sudo apt update -y
+sudo apt install openssh-server -y
+
+# 14. stress
+sudo apt update -y
+sudo apt install stress
+
+# 15. scrot
+sudo apt update -y
+sudo apt install scrot
