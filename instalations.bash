@@ -61,3 +61,7 @@ sudo apt install stress
 # 15. scrot
 sudo apt update -y
 sudo apt install scrot
+
+# 16. python3 and some utilities
+sudo apt update -y
+sudo apt install -y python3-pip python3-pil python3-tk scrot
