@@ -37,3 +37,7 @@ sudo apt install htop
 # 9. btop
 sudo apt update -y
 sudo apt install btop
+
+# 10. dconf
+sudo apt update -y
+sudo apt install dconf-cli
