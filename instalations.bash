@@ -69,3 +69,7 @@ sudo apt install -y python3-pip python3-pil python3-tk scrot
 # 17. python environment (env)
 sudo apt update -y
 sudo apt install -y python3-venv
+
+# 18. ocr
+sudo apt update -y
+sudo apt install tesseract-ocr
