@@ -3,6 +3,7 @@ game version: 0.307 (outdated, publishing archive)
 2. source giant_simulator_roblox/bin/activate
 3. pip install pyautogui Pillow
 4. pip install pytesseract
+5. pip install keyboard
 
 
 (prep)
