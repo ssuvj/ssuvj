@@ -21,3 +21,11 @@ flatpak install io.freetubeapp.FreeTube.flatpakref
 # 5. xterm terminal
 sudo apt update -y
 sudo apt install xterm
+
+# 6. inxi
+sudo apt update -y
+sudo apt install inxi
+
+# 7. fastfetch
+sudo apt update -y
+sudo apt install fastfetch
