@@ -4,6 +4,7 @@ sudo apt update -y
 sudo apt install copyq copyq-plugins
 
 # 2. sober
-
 sudo apt update -y
 sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+# reboot gnu/linux
