@@ -1,0 +1,19 @@
+# Pornire panou stil Mint 2010
+tint2 &
+
+# Scurtătura pentru tasta Windows singură (Rofi)
+xcape -e 'Super_L=Alt_L|F3' &
+
+# Încarcă imaginea de fundal prin Nitrogen la pornire
+nitrogen --restore &
+
+# Activează afișarea pictogramelor pe desktop (pornește DUPĂ Nitrogen)
+sleep 1 && pcmanfm --desktop &
+
+# pentru sober
+/usr/libexec/xdg-desktop-portal-gtk &
+
+# wifi shit / screensaver off
+xset s off &
+xset -dpms &
+xset s noblank &
