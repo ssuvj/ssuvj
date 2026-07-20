@@ -26,8 +26,11 @@
     [#] desktop {
         [1] pcmanfm (home)
         [2] mate-terminal (with infinite scroll by default)
+        [2.1] theme adwaita dark
         [3] falkon browser (named as 'falkon')
         [4] sober
         [5] freetube
+        [6] disasbled to see trash on desktop
+        [7] uninstall and delete firefox
     }
 }
