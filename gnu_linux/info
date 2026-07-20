@@ -26,6 +26,8 @@
     [#] desktop {
         [1] pcmanfm (home)
         [2] mate-terminal (with infinite scroll by default)
-        [3] 
+        [3] falkon browser (named as 'falkon')
+        [4] sober
+        [5] freetube
     }
 }
