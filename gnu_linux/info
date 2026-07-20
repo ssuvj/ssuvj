@@ -7,3 +7,10 @@
 [info] os: debian
 
 [info] version: current (debian 13 'trixie')
+
+[info((info))] information itself
+
+[instalation.bash] packages i need for, later on trying to put just one command to put {
+    create and put "[autostart(openbox)]"
+    create and put "[rc.xml]"
+}
