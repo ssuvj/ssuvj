@@ -21,3 +21,11 @@
 [info] computer.sh for performance controlling
 
 [info] delete firefox and replace with falkon browser
+
+[important] {
+    [#] desktop {
+        [1] pcmanfm (home)
+        [2] mate-terminal (with infinite scroll by default)
+        [3] 
+    }
+}
