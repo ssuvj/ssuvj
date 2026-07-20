@@ -73,3 +73,7 @@ sudo apt install -y python3-venv
 # 18. ocr
 sudo apt update -y
 sudo apt install tesseract-ocr
+
+# 19. kamoso
+sudo apt update -y
+sudo apt install org.kde.kamoso
