@@ -77,3 +77,7 @@ sudo apt install tesseract-ocr
 # 19. kamoso
 sudo apt update -y
 sudo apt install org.kde.kamoso
+
+# 20. rofi
+sudo apt update -y
+sudo apt install rofi xcape
