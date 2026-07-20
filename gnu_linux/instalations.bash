@@ -125,3 +125,7 @@ sudo apt install pcmanfm -y
 # 31. ffmpeg
 sudo apt update -y
 sudo apt install ffmpeg
+
+# 32. qdirstat
+sudo apt update -y
+sudo apt install qdirstat
