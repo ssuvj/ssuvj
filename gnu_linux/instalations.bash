@@ -81,3 +81,43 @@ sudo apt install org.kde.kamoso
 # 20. rofi
 sudo apt update -y
 sudo apt install rofi xcape
+
+# 21. openbox
+sudo apt update -y
+sudo apt install openbox -y
+
+# 22. tint2
+sudo apt update -y
+sudo apt install tint2 -y
+
+# 23. rofi
+sudo apt update -y
+sudo apt install rofi -y
+
+# 24. xcape
+sudo apt update -y
+sudo apt install xcape -y
+
+# 25. feh
+sudo apt update -y
+sudo apt install feh -y
+
+# 26. obconf
+sudo apt update -y
+sudo apt install obconf -y
+
+# 27. lxappearance
+sudo apt update -y
+sudo apt install lxappearance -y
+
+# 28. picom
+sudo apt update -y
+sudo apt install picom -y
+
+# 29. mate utilities
+sudo apt update -y
+sudo apt install caja mate-terminal mate-calc mate-utils -y
+
+# 30. pcmanfm
+sudo apt update -y
+sudo apt install pcmanfm -y
