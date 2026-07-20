@@ -1,5 +1,9 @@
-configurations for openbox, tint2 and more
-a minimalist instalation, trying to make all in one command for future use
-i break something always
-os: debian
-version: current (debian 13 'trixie')
+[autostart(openbox)] configurations for openbox, tint2 and more
+
+[info] a minimalist instalation, trying to make all in one command for future use
+
+[coment] i break something always
+
+[info] os: debian
+
+[info] version: current (debian 13 'trixie')
