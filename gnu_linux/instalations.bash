@@ -121,3 +121,7 @@ sudo apt install caja mate-terminal mate-calc mate-utils -y
 # 30. pcmanfm
 sudo apt update -y
 sudo apt install pcmanfm -y
+
+# 31. ffmpeg
+sudo apt update -y
+sudo apt install ffmpeg
