@@ -37,3 +37,4 @@ dconf write /org/mate/terminal/profiles/default/font "'Monospace 10'"
 
 sudo apt purge -y mate-desktop-environment* mate-core mate-desktop* lightdm gdm3 sddm nodm slim && sudo apt autoremove -y
 echo "=== REBOOT ÎN 5 SECUNDE ===" && sleep 5 && sudo reboot
+# 
